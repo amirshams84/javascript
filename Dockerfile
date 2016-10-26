@@ -8,9 +8,8 @@ MAINTAINER Amir Shams <amir.shams84@gmail.com>
 # Software Website:     -
 # Description:          requaired javascript libraray
 ##############################################################
-RUN mkdir javascript;
-RUN cd javascript;
-RUN wget "https://code.jquery.com/jquery-2.2.3.min.js";
-RUN wget "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js";
-RUN chmod 0755 *;
+RUN mkdir -p javascript ;
+RUN cd javascript ;
+RUN wget "https://code.jquery.com/jquery-2.2.3.min.js" ;
+RUN wget "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ;
 CMD ["/bin/bash"]
