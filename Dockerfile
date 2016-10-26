@@ -17,6 +17,6 @@ RUN cd javascript ; \
     wget "https://cdn.plot.ly/plotly-latest.min.js" ; \
     wget "https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" ; \
     wget "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" ; \
-    chmod 0777 * ;
+    chmod 0777 ./* ;
 
 CMD ["/bin/bash"]
