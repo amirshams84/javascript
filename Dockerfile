@@ -17,6 +17,6 @@ RUN wget "https://mottie.github.io/tablesorter/js/jquery.tablesorter.js" -O /jav
 RUN wget "https://cdn.plot.ly/plotly-latest.min.js" -O /javascript/plotly-latest.min.js ;
 RUN wget "https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" -O /javascript/tether.min.js ;
 RUN wget "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" -O /javascript/font-awesome.min.css ;
-RUN chmod 0777 ./* ;
+RUN chmod 0777 /javascript/* ;
 
 CMD ["/bin/bash"]
